@@ -5,6 +5,11 @@ body {
   background-color: #f2ece4;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 nav {
   display: none;
 }
@@ -283,3 +288,126 @@ header {
 }
 
 /************************ tema 2 ****************************/
+
+.web {
+  color: #d92929;
+  font-size: 40px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 30%;
+}
+
+.website {
+  color: #d92929;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.website_tekst {
+  color: #d92929;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.computer {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
+.emnesite {
+  color: #d92929;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.emnesite_tekst {
+  color: #d92929;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.grid_emnesite {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
+@media only screen and (min-width: 800px) {
+  .web {
+    color: #d92929;
+    font-size: 50px;
+    font-family: mixta-didone, serif;
+    margin-top: 12%;
+    margin-left: 45%;
+  }
+
+  .grid_website {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .website {
+    color: #d92929;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 15%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .website_tekst {
+    color: #d92929;
+    font-size: 25px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 15%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .computer {
+    width: 30%;
+    height: auto;
+    margin-left: 15%;
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .grid_emnesite {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .emnesite {
+    color: #d92929;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .emnesite_tekst {
+    color: #d92929;
+    font-size: 25px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+
+  .grid_emnesite {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    gap: 15px;
+  }
+}
