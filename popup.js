@@ -1,24 +1,48 @@
 /********************* pop-up ************************* */
-document.addEventListener("DOMContentLoaded", function () {
-  var galleryImages = document.querySelectorAll(".gallery-image");
-  var popup = document.getElementById("popup");
-  var popupImage = document.getElementById("popup-image");
-  var popupText = document.getElementById("popup-text");
-  var closePopup = document.querySelector(".close-popup");
+function openPopup1() {
+  document.getElementById("popup1").style.display = "block";
+}
 
-  galleryImages.forEach(function (image) {
-    image.addEventListener("click", function () {
-      var src = image.getAttribute("src");
-      var text = image.getAttribute("data-popup-text");
+function closePopup1() {
+  document.getElementById("popup1").style.display = "none";
+}
 
-      popupImage.setAttribute("src", src);
-      popupText.innerText = text;
+function openPopup2() {
+  document.getElementById("popup2").style.display = "block";
+}
 
-      popup.style.display = "block";
-    });
-  });
+function closePopup2() {
+  document.getElementById("popup2").style.display = "none";
+}
 
-  closePopup.addEventListener("click", function () {
-    popup.style.display = "none";
-  });
-});
+function openPopup3() {
+  document.getElementById("popup3").style.display = "block";
+}
+
+function closePopup3() {
+  document.getElementById("popup3").style.display = "none";
+}
+
+function openPopup4() {
+  document.getElementById("popup4").style.display = "block";
+}
+
+function closePopup4() {
+  document.getElementById("popup4").style.display = "none";
+}
+
+function openPopup5() {
+  document.getElementById("popup5").style.display = "block";
+}
+
+function closePopup5() {
+  document.getElementById("popup5").style.display = "none";
+}
+
+function openPopup6() {
+  document.getElementById("popup6").style.display = "block";
+}
+
+function closePopup6() {
+  document.getElementById("popup6").style.display = "none";
+}

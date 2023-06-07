@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +23,15 @@ nav {
 header {
   position: relative;
   padding: 10px;
+}
+
+p {
+  color: #d92929;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+  white-space: pre-line;
 }
 
 .overskrift {
@@ -468,65 +483,146 @@ header {
 }
 
 /*************** pop up ********************/
-.gallery-image {
-  width: 70%;
-  height: auto;
-  margin-left: 15%;
+.gallery img {
   cursor: pointer;
+}
+
+.gallery {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 27px;
+  padding: 50px 20px;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.gallery {
+  padding: 50px 20px;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.gallery h2 {
+  padding: 0px 0px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .popup {
   display: none;
   position: fixed;
-  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #f2ece4;
+  z-index: 999;
 }
 
-.popup-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.popup_tekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f2ece4;
+  padding: 20px;
   text-align: center;
+  width: 70%;
+  height: 73%;
+  overflow-y: scroll;
 }
 
-.popup-text {
-  font-size: 18px;
-  color: #000;
-  font-family: mixta-didone, serif;
+.popup img {
+  width: 90%;
+  height: auto;
   margin-bottom: 10px;
 }
 
-#popup-image {
-  max-width: 90%;
-  max-height: 90%;
+.popup h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
 }
 
-.close-popup {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  color: #000;
-  font-size: 30px;
-  font-weight: bold;
+.popup p {
+  font-size: 16px;
+  padding-right: 7px;
+  text-align: justify;
+  word-spacing: -3.5px;
+}
+
+.close {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
   cursor: pointer;
+  font-family: mixta-didone, serif;
 }
 
 @media only screen and (min-width: 800px) {
   .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10%;
+    row-gap: 4rem;
   }
 
-  .gallery-image {
+  .gallery-image img {
+    cursor: pointer;
     width: 70%;
     height: auto;
+    position: relative;
+  }
+
+  .gallery-image img:hover {
+    opacity: 0.8;
+  }
+
+  .gallery-image h2 {
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    cursor: default;
+    margin-top: 10px;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2ece4;
+    z-index: 999;
+  }
+
+  .popup_tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2ece4;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+    height: 73%;
+    overflow-y: scroll;
+  }
+
+  .popup img {
+    width: 74%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .close {
+    position: fixed;
+    top: -4px;
+    right: 10px;
+    font-size: 50px;
     cursor: pointer;
+    font-weight: lighter;
+    font-family: mixta-didone, serif;
   }
 }
