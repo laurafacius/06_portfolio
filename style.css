@@ -40,6 +40,8 @@ p {
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 35%;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .logo {
