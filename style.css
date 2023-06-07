@@ -335,12 +335,6 @@ header {
   margin-left: 5%;
 }
 
-.grid_emnesite {
-  width: 70%;
-  height: auto;
-  margin-left: 15%;
-}
-
 @media only screen and (min-width: 800px) {
   .web {
     color: #d92929;
@@ -385,11 +379,9 @@ header {
 
   .grid_emnesite {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 70%;
-    height: auto;
-    margin-left: 15%;
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 0.5rem;
+    grid-auto-rows: 300px;
   }
 
   .emnesite {
@@ -472,5 +464,69 @@ header {
     height: auto;
     margin-left: 15%;
     gap: 15px;
+  }
+}
+
+/*************** pop up ********************/
+.gallery-image {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2ece4;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.popup-text {
+  font-size: 18px;
+  color: #000;
+  font-family: mixta-didone, serif;
+  margin-bottom: 10px;
+}
+
+#popup-image {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close-popup {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .gallery-image {
+    width: 70%;
+    height: auto;
+    cursor: pointer;
   }
 }
