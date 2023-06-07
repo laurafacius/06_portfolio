@@ -19,7 +19,9 @@
             </a>
         </div>
 
-        <h1 class="overskrift">PORTFOLIO</h1>
+        <a href="index.html">
+            <h1 class="overskrift">PORTFOLIO</h1>
+        </a>
 
         <div id="burger-menu">
             <span></span>
@@ -45,107 +47,106 @@
                 <h2 class="website">Website</h2>
                 <p class="website_tekst">I det her emne</p>
 
-                <div class="computer">
-                    <img src="tema2/computer.png" alt="">
-                    <img src="tema2/mincomputer.png" alt="">
-                </div>
+                <img class="computere" src="tema2/computer.png" alt="">
+                <img class="mincomputer" src="tema2/mincomputer.png" alt="">
             </div>
         </section>
-        <section>
-            <div>
-                <h2 class="emnesite">Emnesite</h2>
-                <p class="emnesite_tekst">I det her emne</p>
+
+
+        <div>
+            <h2 class="emnesite">Emnesite</h2>
+            <p class="emnesite_tekst">I det her emne</p>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-image">
+                <div>
+                    <img src="tema2/moodboard.png" alt="moodboard" onclick="openPopup1()">
+                </div>
             </div>
 
-            <div class="gallery">
-                <div class="gallery-image">
-                    <div>
-                        <img src="tema2/moodboard.png" alt="moodboard" onclick="openPopup1()">
-                    </div>
+            <div class="popup" id="popup1">
+                <div class="popup-content">
+                    <span class="close" onclick="closePopup1()">&times;</span>
+                    <img src="tema2/moodboard.png" alt="">
+                    <p>I dette emne har vi lært</p>
+                </div>
+            </div>
+
+
+            <div class="gallery-image">
+                <div>
+                    <img src="tema2/Styletile_yoga.png" alt="styletile" onclick="openPopup2()">
                 </div>
 
-                <div class="popup" id="popup1">
-                    <div class="popup_tekst">
-                        <span class="close" onclick="closePopup1()">&times;</span>
-                        <img src="tema2/moodboard.png" alt="">
+                <div class="popup" id="popup2">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup2()">&times;</span>
+                        <img src="tema2/Styletile_yoga.png" alt="">
                         <p>I dette emne har vi lært</p>
                     </div>
                 </div>
+            </div>
 
 
-                <div class="gallery-image">
-                    <div>
-                        <img src="tema2/Styletile_yoga.png" alt="styletile" onclick="openPopup2()">
-                    </div>
-
-                    <div class="popup" id="popup2">
-                        <div class="popup_tekst">
-                            <span class="close" onclick="closePopup2()">&times;</span>
-                            <img src="tema2/Styletile_yoga.png" alt="">
-                            <p>I dette emne har vi lært</p>
-                        </div>
-                    </div>
+            <div class="gallery-image">
+                <div>
+                    <img src="tema2/mockupweb_yoga.png" alt="mockupweb_yoga" onclick="openPopup3()">
                 </div>
 
-
-                <div class="gallery-image">
-                    <div>
-                        <img src="tema2/mockupweb_yoga.png" alt="mockupweb_yoga" onclick="openPopup3()">
-                    </div>
-
-                    <div class="popup" id="popup3">
-                        <div class="popup_tekst">
-                            <span class="close" onclick="closePopup3()">&times;</span>
-                            <img src="tema2/mockupweb_yoga.png" alt="mockupweb_yoga">
-                            <p>I dette emne har vi lært</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="gallery-image">
-                    <div>
-                        <img src="tema2/mockupmobil_yoga.png" alt="mockupmobil_yoga" onclick="openPopup4()">
-                    </div>
-
-                    <div class="popup" id="popup4">
-                        <div class="popup_tekst">
-                            <span class="close" onclick="closePopup4()">&times;</span>
-                            <img src="tema2/mockupmobil_yoga.png" alt="mockupmobil_yoga">
-                            <p>I dette emne har vi lært</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gallery-image">
-                    <div>
-                        <img src="tema2/wireframe_yoga.png" alt="wireframe_yoga" onclick="openPopup5()">
-                    </div>
-
-                    <div class="popup" id="popup5">
-                        <div class="popup_tekst">
-                            <span class="close" onclick="closePopup5()">&times;</span>
-                            <img src="tema2/wireframe_yoga.png" alt="wireframe">
-                            <p>I dette emne har vi lært</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gallery-image">
-                    <div>
-                        <img src="tema2/layoutdiagram_yoga.png" alt="layoutdiagram_yoga" onclick="openPopup6()">
-                    </div>
-
-                    <div class="popup" id="popup6">
-                        <div class="popup_tekst">
-                            <span class="close" onclick="closePopup6()">&times;</span>
-                            <img src="tema2/layoutdiagram_yoga.png" alt="layoutdiagram_yoga">
-                            <p>I dette emne har vi lært</p>
-                        </div>
+                <div class="popup" id="popup3">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup3()">&times;</span>
+                        <img src="tema2/mockupweb_yoga.png" alt="mockupweb_yoga">
+                        <p>I dette emne har vi lært</p>
                     </div>
                 </div>
             </div>
-        </section>
+
+
+            <div class="gallery-image">
+                <div>
+                    <img src="tema2/mockupmobil_yoga.png" alt="mockupmobil_yoga" onclick="openPopup4()">
+                </div>
+
+                <div class="popup" id="popup4">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup4()">&times;</span>
+                        <img src="tema2/mockupmobil_yoga.png" alt="mockupmobil_yoga">
+                        <p>I dette emne har vi lært</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-image">
+                <div>
+                    <img src="tema2/wireframe_yoga.png" alt="wireframe_yoga" onclick="openPopup5()">
+                </div>
+
+                <div class="popup" id="popup5">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup5()">&times;</span>
+                        <img src="tema2/wireframe_yoga.png" alt="wireframe">
+                        <p>I dette emne har vi lært</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-image">
+                <div>
+                    <img src="tema2/layoutdiagram_yoga.png" alt="layoutdiagram_yoga" onclick="openPopup6()">
+                </div>
+
+                <div class="popup" id="popup6">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup6()">&times;</span>
+                        <img src="tema2/layoutdiagram_yoga.png" alt="layoutdiagram_yoga">
+                        <p>I dette emne har vi lært</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer>

@@ -228,260 +228,6 @@ p {
   }
 }
 
-/*********************** forside **********************/
-.forside_tekst {
-  transform: rotate(270deg);
-  margin-left: -65%;
-  margin-top: 60%;
-  font-family: mixta-didone, serif;
-  font-size: 40px;
-  letter-spacing: 20px;
-  color: #d92929;
-}
-
-.forside_tekst2 {
-  aspect-ratio: 1430/167;
-  height: auto;
-  width: 100%;
-  transform: rotate(270deg);
-  margin-left: -30%;
-  margin-top: 5%;
-}
-
-.forside_billede {
-  width: 70%;
-  height: auto;
-  margin-left: 20%;
-  margin-top: -35%;
-}
-
-.navn {
-  color: #d92929;
-  font-size: 30px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 48%;
-}
-
-@media only screen and (min-width: 800px) {
-  .forside_tekst {
-    transform: rotate(270deg);
-    margin-left: -65%;
-    margin-top: 40%;
-    font-family: mixta-didone, serif;
-    font-size: 60px;
-    letter-spacing: 20px;
-    color: #d92929;
-    padding-left: 78%;
-    padding-top: 0%;
-  }
-
-  .forside_tekst2 {
-    aspect-ratio: 1430/167;
-    height: auto;
-    width: 35%;
-    transform: rotate(270deg);
-    padding-left: 54%;
-    margin-left: -25%;
-  }
-
-  .forside_billede {
-    width: 30%;
-    height: auto;
-    margin-left: 30%;
-    margin-top: -37%;
-    position: absolute;
-  }
-
-  .navn {
-    color: #d92929;
-    font-size: 30px;
-    font-family: mixta-didone, serif;
-    margin-top: -20%;
-    margin-left: 50%;
-  }
-}
-
-/************************ tema 2 ****************************/
-
-.web {
-  color: #d92929;
-  font-size: 40px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 30%;
-}
-
-.website {
-  color: #d92929;
-  font-size: 20px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 5%;
-}
-
-.website_tekst {
-  color: #d92929;
-  font-size: 15px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 5%;
-}
-
-.computer {
-  width: 70%;
-  height: auto;
-  margin-left: 15%;
-}
-
-.emnesite {
-  color: #d92929;
-  font-size: 20px;
-  font-family: mixta-didone, serif;
-  margin-top: 10%;
-  margin-left: 5%;
-}
-
-.emnesite_tekst {
-  color: #d92929;
-  font-size: 15px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 5%;
-}
-
-@media only screen and (min-width: 800px) {
-  .web {
-    color: #d92929;
-    font-size: 50px;
-    font-family: mixta-didone, serif;
-    margin-top: 12%;
-    margin-left: 45%;
-  }
-
-  .grid_website {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .website {
-    color: #d92929;
-    font-size: 30px;
-    font-family: mixta-didone, serif;
-    margin-top: 0%;
-    margin-left: 15%;
-    grid-row: 1;
-    grid-column: 1;
-  }
-
-  .website_tekst {
-    color: #d92929;
-    font-size: 25px;
-    font-family: mixta-didone, serif;
-    margin-top: 10%;
-    margin-left: 15%;
-    grid-row: 1;
-    grid-column: 1;
-  }
-
-  .computer {
-    width: 30%;
-    height: auto;
-    margin-left: 15%;
-    grid-row: 1;
-    grid-column: 2;
-  }
-
-  .grid_emnesite {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 0.5rem;
-    grid-auto-rows: 300px;
-  }
-
-  .emnesite {
-    color: #d92929;
-    font-size: 30px;
-    font-family: mixta-didone, serif;
-    margin-top: 10%;
-    margin-left: 5%;
-  }
-
-  .emnesite_tekst {
-    color: #d92929;
-    font-size: 25px;
-    font-family: mixta-didone, serif;
-    margin-top: 0%;
-    margin-left: 5%;
-  }
-}
-
-/************************** tema 3 **********************/
-.ux {
-  color: #d92929;
-  font-size: 40px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 35%;
-}
-
-.pitch {
-  color: #d92929;
-  font-size: 20px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 5%;
-}
-
-.pitch_tekst {
-  color: #d92929;
-  font-size: 15px;
-  font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 5%;
-}
-
-.grid_pitch {
-  width: 70%;
-  height: auto;
-  margin-left: 15%;
-}
-
-@media only screen and (min-width: 800px) {
-  .ux {
-    color: #d92929;
-    font-size: 50px;
-    font-family: mixta-didone, serif;
-    margin-top: 12%;
-    margin-left: 45%;
-  }
-
-  .pitch {
-    color: #d92929;
-    font-size: 30px;
-    font-family: mixta-didone, serif;
-    margin-top: 0%;
-    margin-left: 15%;
-  }
-
-  .pitch_tekst {
-    color: #d92929;
-    font-size: 25px;
-    font-family: mixta-didone, serif;
-    margin-top: 0%;
-    margin-left: 15%;
-  }
-
-  .grid_pitch {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 70%;
-    height: auto;
-    margin-left: 15%;
-    gap: 15px;
-  }
-}
-
 /*************** pop up ********************/
 .gallery img {
   cursor: pointer;
@@ -597,7 +343,7 @@ p {
     z-index: 999;
   }
 
-  .popup_tekst {
+  .popup-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -624,5 +370,268 @@ p {
     cursor: pointer;
     font-weight: lighter;
     font-family: mixta-didone, serif;
+  }
+}
+
+/*********************** forside **********************/
+.forside_tekst {
+  transform: rotate(270deg);
+  margin-left: -65%;
+  margin-top: 60%;
+  font-family: mixta-didone, serif;
+  font-size: 40px;
+  letter-spacing: 20px;
+  color: #d92929;
+}
+
+.forside_tekst2 {
+  aspect-ratio: 1430/167;
+  height: auto;
+  width: 100%;
+  transform: rotate(270deg);
+  margin-left: -30%;
+  margin-top: 5%;
+}
+
+.forside_billede {
+  width: 70%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: -35%;
+}
+
+.navn {
+  color: #d92929;
+  font-size: 30px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 48%;
+}
+
+@media only screen and (min-width: 800px) {
+  .forside_tekst {
+    transform: rotate(270deg);
+    margin-left: -65%;
+    margin-top: 40%;
+    font-family: mixta-didone, serif;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: #d92929;
+    padding-left: 78%;
+    padding-top: 0%;
+  }
+
+  .forside_tekst2 {
+    aspect-ratio: 1430/167;
+    height: auto;
+    width: 35%;
+    transform: rotate(270deg);
+    padding-left: 54%;
+    margin-left: -25%;
+  }
+
+  .forside_billede {
+    width: 30%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: -37%;
+    position: absolute;
+  }
+
+  .navn {
+    color: #d92929;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: -20%;
+    margin-left: 50%;
+  }
+}
+
+/************************ tema 2 ****************************/
+
+.web {
+  color: #d92929;
+  font-size: 40px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 30%;
+}
+
+.website {
+  color: #d92929;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.website_tekst {
+  color: #d92929;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.computere {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
+.mincomputer {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
+.emnesite {
+  color: #d92929;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.emnesite_tekst {
+  color: #d92929;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+@media only screen and (min-width: 800px) {
+  .web {
+    color: #d92929;
+    font-size: 50px;
+    font-family: mixta-didone, serif;
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+
+  .grid_website {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .website {
+    color: #d92929;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 15%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .website_tekst {
+    color: #d92929;
+    font-size: 25px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 15%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .computere {
+    width: 50%;
+    height: auto;
+    margin-left: 52%;
+    margin-top: 10%;
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .mincomputer {
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+    grid-row: 1;
+    grid-column: 3;
+    margin-top: 8%;
+  }
+
+  .emnesite {
+    color: #d92929;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .emnesite_tekst {
+    color: #d92929;
+    font-size: 25px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+}
+
+/************************** tema 3 **********************/
+.ux {
+  color: #d92929;
+  font-size: 40px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 35%;
+}
+
+.pitch {
+  color: #d92929;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.pitch_tekst {
+  color: #d92929;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.grid_pitch {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+}
+
+@media only screen and (min-width: 800px) {
+  .ux {
+    color: #d92929;
+    font-size: 50px;
+    font-family: mixta-didone, serif;
+    margin-top: 12%;
+    margin-left: 45%;
+  }
+
+  .pitch {
+    color: #d92929;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 15%;
+  }
+
+  .pitch_tekst {
+    color: #d92929;
+    font-size: 25px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 15%;
+  }
+
+  .grid_pitch {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    gap: 15px;
   }
 }
