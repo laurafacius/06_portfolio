@@ -182,7 +182,6 @@ footer {
 
 #menu {
   z-index: 1;
-  min-width: 100%;
   position: fixed;
   height: 0;
   visibility: hidden;

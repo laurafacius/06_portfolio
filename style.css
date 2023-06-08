@@ -195,22 +195,22 @@
 
 .web {
   color: #5005f2;
-  font-size: 40px;
+  font-size: 20px;
   font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 30%;
+  margin-top: -209%;
+  margin-left: 13%;
 }
 
 .website {
-  color: #d92929;
-  font-size: 20px;
+  color: #5005f2;
+  font-size: 15px;
   font-family: mixta-didone, serif;
-  margin-top: 0%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 
 .website_tekst {
-  color: #d92929;
+  color: #5005f2;
   font-size: 15px;
   font-family: mixta-didone, serif;
   margin-top: 0%;
@@ -248,10 +248,10 @@
 @media only screen and (min-width: 800px) {
   .web {
     color: #5005f2;
-    font-size: 50px;
+    font-size: 30px;
     font-family: mixta-didone, serif;
-    margin-top: 12%;
-    margin-left: 45%;
+    margin-top: 13%;
+    margin-left: 38%;
   }
 
   .grid_website {
@@ -260,8 +260,8 @@
   }
 
   .website {
-    color: #d92929;
-    font-size: 30px;
+    color: #5005f2;
+    font-size: 25px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
     margin-left: 15%;
@@ -270,7 +270,7 @@
   }
 
   .website_tekst {
-    color: #d92929;
+    color: #5005f2;
     font-size: 25px;
     font-family: mixta-didone, serif;
     margin-top: 10%;
@@ -298,7 +298,7 @@
   }
 
   .emnesite {
-    color: #d92929;
+    color: #5005f2;
     font-size: 30px;
     font-family: mixta-didone, serif;
     margin-top: 10%;
@@ -306,7 +306,7 @@
   }
 
   .emnesite_tekst {
-    color: #d92929;
+    color: #5005f2;
     font-size: 25px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
@@ -316,23 +316,23 @@
 
 /************************** tema 3 **********************/
 .ux {
-  color: #d92929;
-  font-size: 40px;
+  color: #5005f2;
+  font-size: 20px;
   font-family: mixta-didone, serif;
-  margin-top: 0%;
-  margin-left: 35%;
+  margin-top: -211%;
+  margin-left: 15%;
 }
 
 .pitch {
-  color: #d92929;
+  color: #5005f2;
   font-size: 20px;
   font-family: mixta-didone, serif;
-  margin-top: 0%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 
 .pitch_tekst {
-  color: #d92929;
+  color: #5005f2;
   font-size: 15px;
   font-family: mixta-didone, serif;
   margin-top: 0%;
@@ -347,7 +347,7 @@
 
 @media (min-width: 800px) {
   .ux {
-    color: #d92929;
+    color: #5005f2;
     font-size: 50px;
     font-family: mixta-didone, serif;
     margin-top: 12%;
@@ -355,7 +355,7 @@
   }
 
   .pitch {
-    color: #d92929;
+    color: #5005f2;
     font-size: 30px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
@@ -363,7 +363,7 @@
   }
 
   .pitch_tekst {
-    color: #d92929;
+    color: #5005f2;
     font-size: 25px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
