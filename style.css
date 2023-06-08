@@ -284,6 +284,7 @@ p {
   width: 90%;
   height: auto;
   margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 .popup h2 {
@@ -307,7 +308,7 @@ p {
   font-family: mixta-didone, serif;
 }
 
-@media only screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -509,7 +510,7 @@ p {
     font-size: 50px;
     font-family: mixta-didone, serif;
     margin-top: 12%;
-    margin-left: 5%;
+    margin-left: 45%;
   }
 
   .grid_website {
