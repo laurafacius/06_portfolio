@@ -1,4 +1,6 @@
 /********************* pop-up ************************* */
+document.querySelector("popup1").addEventListener("click", openPopup1);
+
 function openPopup1() {
   document.getElementById("popup1").style.display = "block";
 }
