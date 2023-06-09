@@ -23,7 +23,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: 16%;
-  margin-top: -32%;
+  margin-top: -34.3%;
 }
 
 .rar {
@@ -32,7 +32,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: 27%;
-  margin-top: -40%;
+  margin-top: -42.7%;
 }
 
 .trofast {
@@ -41,7 +41,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: 38%;
-  margin-top: -8%;
+  margin-top: -8.6%;
 }
 
 .fornuftig {
@@ -50,7 +50,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: 48%;
-  margin-top: -24%;
+  margin-top: -25.7%;
 }
 
 .opmærksom {
@@ -58,8 +58,8 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 60%;
-  margin-top: -32%;
+  margin-left: 59%;
+  margin-top: -34.2%;
 }
 
 .lille {
@@ -68,7 +68,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-left: 70%;
-  margin-top: -32%;
+  margin-top: -33.5%;
 }
 
 .impulsiv {
@@ -76,8 +76,8 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 80%;
-  margin-top: -17%;
+  margin-left: 79.9%;
+  margin-top: -17.4%;
 }
 
 .ordentlig {
@@ -85,8 +85,8 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 90%;
-  margin-top: -28%;
+  margin-left: 89.7%;
+  margin-top: -30%;
 }
 
 @media (min-width: 800px) {
@@ -230,7 +230,7 @@
 }
 
 .emnesite {
-  color: #d92929;
+  color: #5005f2;
   font-size: 20px;
   font-family: mixta-didone, serif;
   margin-top: 10%;
@@ -238,7 +238,7 @@
 }
 
 .emnesite_tekst {
-  color: #d92929;
+  color: #5005f2;
   font-size: 15px;
   font-family: mixta-didone, serif;
   margin-top: 0%;
@@ -250,8 +250,8 @@
     color: #5005f2;
     font-size: 30px;
     font-family: mixta-didone, serif;
-    margin-top: 13%;
-    margin-left: 38%;
+    margin-top: 10%;
+    margin-left: 36%;
   }
 
   .grid_website {
@@ -261,7 +261,7 @@
 
   .website {
     color: #5005f2;
-    font-size: 25px;
+    font-size: 20px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
     margin-left: 15%;
@@ -271,9 +271,8 @@
 
   .website_tekst {
     color: #5005f2;
-    font-size: 25px;
     font-family: mixta-didone, serif;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 15%;
     grid-row: 1;
     grid-column: 1;
@@ -299,15 +298,14 @@
 
   .emnesite {
     color: #5005f2;
-    font-size: 30px;
     font-family: mixta-didone, serif;
+    font-size: 20px;
     margin-top: 10%;
     margin-left: 5%;
   }
 
   .emnesite_tekst {
     color: #5005f2;
-    font-size: 25px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
     margin-left: 5%;
@@ -320,7 +318,7 @@
   font-size: 20px;
   font-family: mixta-didone, serif;
   margin-top: -211%;
-  margin-left: 15%;
+  margin-left: 17%;
 }
 
 .pitch {
@@ -339,43 +337,158 @@
   margin-left: 5%;
 }
 
-.grid_pitch {
-  width: 70%;
-  height: auto;
-  margin-left: 15%;
-}
-
 @media (min-width: 800px) {
   .ux {
     color: #5005f2;
-    font-size: 50px;
+    font-size: 30px;
     font-family: mixta-didone, serif;
-    margin-top: 12%;
-    margin-left: 45%;
+    margin-top: 10%;
+    margin-left: 37%;
   }
 
   .pitch {
     color: #5005f2;
-    font-size: 30px;
+    font-size: 20px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
-    margin-left: 15%;
+    margin-left: 6.5%;
   }
 
   .pitch_tekst {
     color: #5005f2;
-    font-size: 25px;
     font-family: mixta-didone, serif;
     margin-top: 0%;
-    margin-left: 15%;
+    margin-left: 6.5%;
+  }
+}
+
+/************************** tema 4 **********************/
+.animation {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: -211%;
+  margin-left: 31%;
+}
+
+.temaopgave {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pitch_tekst {
+  color: #5005f2;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+@media (min-width: 800px) {
+  .animation {
+    color: #5005f2;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 42.5%;
   }
 
-  .grid_pitch {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 70%;
-    height: auto;
-    margin-left: 15%;
-    gap: 15px;
+  .temaopgave {
+    color: #5005f2;
+    font-size: 20px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 6.5%;
+  }
+
+  .pitch_tekst {
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 6.5%;
+  }
+}
+
+/************************** tema 5 **********************/
+.indhold {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: -211%;
+  margin-left: 35%;
+}
+
+.videosite {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 4.5%;
+}
+
+.virksomhedssite {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.pitch_tekst {
+  color: #5005f2;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+/************************* video *********************************************/
+
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+/**********************************************************************/
+
+@media (min-width: 800px) {
+  .indhold {
+    color: #5005f2;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 43.5%;
+  }
+
+  .virksomhedssite {
+    color: #5005f2;
+    font-size: 20px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 6.5%;
+  }
+
+  .pitch_tekst {
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 6.5%;
   }
 }
