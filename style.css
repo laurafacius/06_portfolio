@@ -532,3 +532,66 @@ video {
     margin-left: 6.5%;
   }
 }
+
+/****************************** tema 6 ************************/
+
+/****************************** om mig ************************/
+.navn {
+  color: #5005f2;
+  font-size: 43px;
+  font-family: mixta-didone, serif;
+  margin-top: -210%;
+  margin-left: 5%;
+}
+
+.navn::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.mig {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 4%;
+  margin-left: 4.5%;
+}
+
+.mig_tekst {
+  color: #5005f2;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.mig_tekst::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.skills {
+  aspect-ratio: 911/549;
+  height: auto;
+  width: 70%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+@media (min-width: 800px) {
+  .skills {
+    aspect-ratio: 911/549;
+    height: auto;
+    width: 20%;
+    margin-top: 30%;
+    margin-left: 30%;
+  }
+}
