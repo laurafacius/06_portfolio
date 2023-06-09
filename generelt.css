@@ -141,41 +141,41 @@ footer {
   left: 0px;
   top: -10px;
   width: 27px;
-  background: #50d93b;
+  background: #f2762e;
 }
 
 #burger-menu span {
   right: 0px;
   top: 13px;
   width: 27px;
-  background: #50d93b;
+  background: #f2762e;
 }
 
 #burger-menu span:after {
   left: 0px;
   top: 10px;
   width: 27px;
-  background: #50d93b;
+  background: #f2762e;
 }
 
 #burger-menu.close span:before {
   top: 0px;
   transform: rotate(90deg);
   width: 27px;
-  background: #50d93b;
+  background: #f2762e;
 }
 
 #burger-menu.close span {
   transform: rotate(-45deg);
   top: 13px;
   width: 27px;
-  background: #50d93b;
+  background: #f2762e;
 }
 
 #burger-menu.close span:after {
   top: 0px;
   left: 0;
-  transform: #50d93b;
+  transform: #f2762e;
   opacity: 0;
   width: 0;
 }
@@ -212,6 +212,10 @@ footer {
   display: block;
   font-size: 25px;
   margin-bottom: 30px;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 

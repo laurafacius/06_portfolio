@@ -466,7 +466,7 @@ video {
   height: auto;
 }
 
-/**********************************************************************/
+/****************************** tema 5 ****************************************/
 
 @media (min-width: 800px) {
   .indhold {
@@ -477,11 +477,51 @@ video {
     margin-left: 43.5%;
   }
 
+  .grid_videosite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .videosite {
+    color: #5005f2;
+    font-size: 20px;
+    font-family: mixta-didone, serif;
+    margin-top: 7%;
+    margin-left: 11.5%;
+  }
+
+  .videosite_tekst {
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 11.5%;
+  }
+
+  .iframe-wrapper {
+    position: relative;
+    width: 70%;
+    height: 0;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin-top: 10%;
+    margin-left: 24%;
+  }
+
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+
   .virksomhedssite {
     color: #5005f2;
     font-size: 20px;
     font-family: mixta-didone, serif;
-    margin-top: 0%;
+    margin-top: 25%;
     margin-left: 6.5%;
   }
 
