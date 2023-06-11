@@ -30,7 +30,6 @@ p {
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
-  white-space: pre-line;
 }
 
 .overskrift {
@@ -341,7 +340,7 @@ a {
   z-index: 999;
 }
 
-.popup_tekst {
+.popup-content {
   position: absolute;
   top: 50%;
   left: 50%;
