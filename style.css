@@ -14,7 +14,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   margin-top: 0%;
-  margin-left: 4%;
+  margin-left: 3.5%;
 }
 
 .optimistisk {
@@ -22,7 +22,7 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 16%;
+  margin-left: 15.5%;
   margin-top: -34.3%;
 }
 
@@ -31,7 +31,7 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 27%;
+  margin-left: 26.5%;
   margin-top: -42.7%;
 }
 
@@ -40,7 +40,7 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 38%;
+  margin-left: 37%;
   margin-top: -8.6%;
 }
 
@@ -49,7 +49,7 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 48%;
+  margin-left: 47%;
   margin-top: -25.7%;
 }
 
@@ -58,7 +58,7 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 59%;
+  margin-left: 58.5%;
   margin-top: -34.2%;
 }
 
@@ -67,7 +67,7 @@
   font-family: mixta-didone, serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  margin-left: 70%;
+  margin-left: 69%;
   margin-top: -33.5%;
 }
 
@@ -107,7 +107,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     margin-top: 0%;
-    margin-left: 18.5%;
+    margin-left: 18.3%;
     font-size: 20px;
   }
 
@@ -116,7 +116,7 @@
     font-family: mixta-didone, serif;
     writing-mode: vertical-rl;
     text-orientation: upright;
-    margin-left: 27.2%;
+    margin-left: 27%;
     margin-top: -10.5%;
     font-size: 20px;
   }
@@ -215,12 +215,14 @@
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .computere {
   width: 70%;
   height: auto;
   margin-left: 15%;
+  margin-top: 5%;
 }
 
 .mincomputer {
@@ -263,8 +265,8 @@
     color: #5005f2;
     font-size: 20px;
     font-family: mixta-didone, serif;
-    margin-top: 0%;
-    margin-left: 15%;
+    margin-top: 11%;
+    margin-left: 17%;
     grid-row: 1;
     grid-column: 1;
   }
@@ -272,8 +274,8 @@
   .website_tekst {
     color: #5005f2;
     font-family: mixta-didone, serif;
-    margin-top: 5%;
-    margin-left: 15%;
+    margin-top: 17%;
+    margin-left: 17%;
     grid-row: 1;
     grid-column: 1;
   }
@@ -301,14 +303,15 @@
     font-family: mixta-didone, serif;
     font-size: 20px;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 6%;
   }
 
   .emnesite_tekst {
     color: #5005f2;
     font-family: mixta-didone, serif;
-    margin-top: 0%;
-    margin-left: 5%;
+    margin-top: 0.5%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 }
 
@@ -335,6 +338,7 @@
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 @media (min-width: 800px) {
@@ -359,6 +363,7 @@
     font-family: mixta-didone, serif;
     margin-top: 0%;
     margin-left: 6.5%;
+    margin-right: 6.5%;
   }
 }
 
@@ -385,6 +390,7 @@
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 @media (min-width: 800px) {
@@ -443,6 +449,7 @@
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 /************************* video *********************************************/
@@ -550,7 +557,7 @@ video {
   height: 1px;
   background-color: #5005f2;
   margin-top: 10px;
-  width: 90%;
+  width: 95%;
 }
 
 .mig {
@@ -567,6 +574,7 @@ video {
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 .mig_tekst::after {
@@ -575,7 +583,12 @@ video {
   height: 1px;
   background-color: #5005f2;
   margin-top: 10px;
-  width: 90%;
+  width: 100%;
+}
+
+.kompentencer {
+  margin-top: 0%;
+  margin-left: 4.5%;
 }
 
 .skills {

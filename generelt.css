@@ -30,6 +30,7 @@ p {
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+  line-height: 1.5;
 }
 
 .overskrift {
@@ -304,22 +305,12 @@ a {
 }
 
 /*************** pop up ********************/
-.gallery img {
-  cursor: pointer;
-}
-
 .gallery {
   position: relative;
   cursor: pointer;
   margin-bottom: 27px;
   padding: 50px 20px;
-  margin-top: -50px;
-  text-align: center;
-}
-
-.gallery {
-  padding: 50px 20px;
-  margin-top: -50px;
+  margin-top: -30px;
   text-align: center;
 }
 
@@ -350,7 +341,7 @@ a {
   text-align: center;
   width: 70%;
   height: 73%;
-  overflow-y: scroll;
+  overflow-y: scroll; /* Viser rullelinjen i lodret retning */
 }
 
 .popup img {
@@ -379,14 +370,14 @@ a {
   font-size: 24px;
   cursor: pointer;
   font-family: mixta-didone, serif;
-  color: #50d93b;
+  color: #f2762e;
 }
 
 @media (min-width: 800px) {
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 10%;
+    margin-top: 0%;
     row-gap: 4rem;
   }
 
@@ -430,7 +421,7 @@ a {
     text-align: center;
     width: 40%;
     height: 73%;
-    overflow-y: scroll;
+    overflow-y: scroll; /* Viser rullelinjen i lodret retning */
   }
 
   .popup img {
