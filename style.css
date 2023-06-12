@@ -266,7 +266,7 @@
     font-size: 20px;
     font-family: mixta-didone, serif;
     margin-top: 11%;
-    margin-left: 17%;
+    margin-left: 19%;
     grid-row: 1;
     grid-column: 1;
   }
@@ -275,7 +275,7 @@
     color: #5005f2;
     font-family: mixta-didone, serif;
     margin-top: 17%;
-    margin-left: 17%;
+    margin-left: 19%;
     grid-row: 1;
     grid-column: 1;
   }
@@ -494,14 +494,14 @@ video {
     font-size: 20px;
     font-family: mixta-didone, serif;
     margin-top: 7%;
-    margin-left: 11.5%;
+    margin-left: 13.5%;
   }
 
   .videosite_tekst {
     color: #5005f2;
     font-family: mixta-didone, serif;
     margin-top: 0%;
-    margin-left: 11.5%;
+    margin-left: 13.5%;
   }
 
   .iframe-wrapper {
@@ -528,7 +528,7 @@ video {
     color: #5005f2;
     font-size: 20px;
     font-family: mixta-didone, serif;
-    margin-top: 25%;
+    margin-top: 10%;
     margin-left: 6.5%;
   }
 
