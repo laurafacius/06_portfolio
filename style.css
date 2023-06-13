@@ -450,6 +450,14 @@
   margin-right: 5%;
 }
 
+.link_spil {
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: #5005f2;
+  font-family: mixta-didone, serif;
+}
+
 @media (min-width: 800px) {
   .animation {
     color: #5005f2;

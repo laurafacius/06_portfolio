@@ -355,6 +355,7 @@ a {
   width: 70%;
   height: 73%;
   overflow-y: scroll; /* Viser rullelinjen i lodret retning */
+  line-height: 1.5;
 }
 
 .popup img {
@@ -435,6 +436,7 @@ a {
     width: 40%;
     height: 73%;
     overflow-y: scroll; /* Viser rullelinjen i lodret retning */
+    line-height: 1.5;
   }
 
   .popup img {
