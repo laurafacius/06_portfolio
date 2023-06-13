@@ -280,6 +280,15 @@
     grid-column: 1;
   }
 
+  .website_tekst2 {
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+    margin-top: 42%;
+    margin-left: 19%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
   .computere {
     width: 50%;
     height: auto;
@@ -504,6 +513,13 @@ video {
     margin-left: 13.5%;
   }
 
+  .videosite_tekst2 {
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+    margin-top: 2%;
+    margin-left: 13.5%;
+  }
+
   .iframe-wrapper {
     position: relative;
     width: 70%;
@@ -514,7 +530,7 @@ video {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
-    margin-top: 10%;
+    margin-top: 17%;
     margin-left: 24%;
   }
 
@@ -567,6 +583,29 @@ video {
 }
 
 @media (min-width: 800px) {
+  .portfolio_overskrift {
+    color: #5005f2;
+    font-size: 30px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 42%;
+  }
+
+  .portfolio {
+    color: #5005f2;
+    font-size: 20px;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 6.5%;
+  }
+
+  .portfolio_tekst {
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+    margin-top: 0%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+  }
 }
 
 /****************************** om mig ************************/
@@ -747,7 +786,7 @@ video {
   .navn::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     background-color: #5005f2;
     margin-top: 10px;
     width: 95%;
@@ -777,7 +816,7 @@ video {
   .mig_tekst::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     background-color: #5005f2;
     margin-top: 10px;
     width: 100%;
@@ -819,7 +858,7 @@ video {
   .fritid_tekst::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     background-color: #5005f2;
     margin-top: 10px;
     width: 105.5%;
@@ -842,7 +881,7 @@ video {
   .uddannelse_tekst::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     background-color: #5005f2;
     margin-top: 10px;
     width: 100%;
@@ -865,7 +904,7 @@ video {
   .kompentencer_tekst::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     background-color: #5005f2;
     margin-top: 10px;
     width: 100%;
@@ -892,7 +931,7 @@ video {
   .skills::before {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.5px;
     background-color: #5005f2;
     margin-top: 10px;
     width: 90%;
