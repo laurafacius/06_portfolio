@@ -69,7 +69,7 @@ footer {
   position: relative;
   transform: rotate(270deg);
   transform-origin: center;
-  margin-top: 242%;
+  margin-top: 254%;
   margin-left: 49%;
 }
 
@@ -80,6 +80,8 @@ footer {
   color: #50d93b;
   margin-top: 268%;
   margin-left: -2%;
+  list-style-type: none;
+  line-height: 1.5;
 }
 
 @media (min-width: 800px) {
@@ -95,8 +97,8 @@ footer {
     position: relative;
     transform: rotate(270deg);
     transform-origin: center;
-    margin-top: 33%;
-    margin-left: 82%;
+    margin-top: 38.5%;
+    margin-left: 81%;
   }
 
   .footer_tekst {
@@ -104,8 +106,10 @@ footer {
     font-size: 15px;
     letter-spacing: 5px;
     color: #50d93b;
-    margin-top: 45%;
+    margin-top: 46%;
     margin-left: 0%;
+    list-style-type: none;
+    line-height: 1.5;
   }
 }
 /********************* menu ****************************/

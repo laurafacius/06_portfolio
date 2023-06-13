@@ -439,7 +439,7 @@
   color: #5005f2;
   font-size: 20px;
   font-family: mixta-didone, serif;
-  margin-top: 5%;
+  margin-top: 60%;
   margin-left: 5%;
 }
 
@@ -541,6 +541,33 @@ video {
 }
 
 /****************************** tema 6 ************************/
+.portfolio_overskrift {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: -213%;
+  margin-left: 31%;
+}
+
+.portfolio {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.portfolio_tekst {
+  color: #5005f2;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media (min-width: 800px) {
+}
 
 /****************************** om mig ************************/
 .navn {
@@ -558,6 +585,13 @@ video {
   background-color: #5005f2;
   margin-top: 10px;
   width: 95%;
+}
+
+.cv {
+  height: auto;
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 14%;
 }
 
 .mig {
@@ -586,12 +620,112 @@ video {
   width: 100%;
 }
 
-.kompentencer {
-  margin-top: 0%;
+.fritid::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.fritid {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 4%;
   margin-left: 4.5%;
 }
 
+.fritid_tekst::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.uddannelse {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 4%;
+  margin-left: 4.5%;
+}
+
+.uddannelse_tekst {
+  color: #5005f2;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 4.5%;
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.uddannelse_tekst::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.kompetencer {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 4%;
+  margin-left: 4.5%;
+}
+
+.kompentencer_tekst {
+  color: #5005f2;
+  font-size: 15px;
+  font-family: mixta-didone, serif;
+  margin-top: 0%;
+  margin-left: 4.5%;
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.kompentencer_tekst::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.erfaring {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 4%;
+  margin-left: 4.5%;
+}
+
+.erfaring_tekst::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #5005f2;
+  margin-top: 10px;
+  width: 100%;
+}
+
 .skills {
+  color: #5005f2;
+  font-size: 20px;
+  font-family: mixta-didone, serif;
+  margin-top: 4%;
+  margin-left: 4.5%;
+}
+
+.skills_svg {
   aspect-ratio: 911/549;
   height: auto;
   width: 70%;
@@ -600,11 +734,184 @@ video {
 }
 
 @media (min-width: 800px) {
+  .navn {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    color: #5005f2;
+    font-size: 43px;
+    font-family: mixta-didone, serif;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .navn::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #5005f2;
+    margin-top: 10px;
+    width: 95%;
+  }
+
+  .mig {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    color: #5005f2;
+    font-size: 20px;
+    font-family: mixta-didone, serif;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+
+  .mig_tekst {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    color: #5005f2;
+    font-size: 15px;
+    font-family: mixta-didone, serif;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .mig_tekst::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #5005f2;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .grid_ommig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cv {
+    grid-column: 2;
+    grid-row: 3;
+    height: auto;
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 2%;
+  }
+
+  .fritid::before {
+    display: none;
+  }
+
+  .fritid {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+
+  .fritid_tekst {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .fritid_tekst::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #5005f2;
+    margin-top: 10px;
+    width: 105.5%;
+  }
+
+  .uddannelse {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+
+  .uddannelse_tekst {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: -22%;
+    margin-left: 10%;
+  }
+
+  .uddannelse_tekst::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #5005f2;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .kompetencer {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 10%;
+    margin-top: 29%;
+  }
+
+  .kompentencer_tekst {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 34%;
+    margin-left: 10%;
+  }
+
+  .kompentencer_tekst::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #5005f2;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .erfaring {
+    grid-column: 1;
+    grid-row: 4;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+
+  .erfaring_tekst {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: 10%;
+    margin-top: 6%;
+  }
+
+  .erfaring_tekst::after {
+    display: none;
+  }
+
+  .skills::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #5005f2;
+    margin-top: 10px;
+    width: 90%;
+  }
+
   .skills {
+    grid-column: 2;
+    grid-row: 4;
+    margin-left: 13%;
+    margin-top: 3%;
+  }
+
+  .skills_svg {
     aspect-ratio: 911/549;
     height: auto;
-    width: 20%;
-    margin-top: 30%;
-    margin-left: 30%;
+    width: 50%;
+    grid-column: 2;
+    grid-row: 4;
+    margin-top: 9%;
+    margin-left: 13%;
   }
 }
