@@ -218,6 +218,14 @@
   margin-right: 5%;
 }
 
+.link_website {
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: #5005f2;
+  font-family: mixta-didone, serif;
+}
+
 .computere {
   width: 70%;
   height: auto;
@@ -245,6 +253,14 @@
   font-family: mixta-didone, serif;
   margin-top: 0%;
   margin-left: 5%;
+}
+
+.link_emnesite {
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: #5005f2;
+  font-family: mixta-didone, serif;
 }
 
 @media only screen and (min-width: 800px) {
@@ -289,6 +305,14 @@
     grid-column: 1;
   }
 
+  .link_website {
+    margin-left: -180.5%;
+    margin-top: -10%;
+    font-size: 15px;
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+  }
+
   .computere {
     width: 50%;
     height: auto;
@@ -322,6 +346,14 @@
     margin-left: 6%;
     margin-right: 6%;
   }
+
+  .link_emnesite {
+    margin-left: 6%;
+    margin-top: 10%;
+    font-size: 15px;
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+  }
 }
 
 /************************** tema 3 **********************/
@@ -350,6 +382,14 @@
   margin-right: 5%;
 }
 
+.link_prototype {
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: #5005f2;
+  font-family: mixta-didone, serif;
+}
+
 @media (min-width: 800px) {
   .ux {
     color: #5005f2;
@@ -373,6 +413,14 @@
     margin-top: 0%;
     margin-left: 6.5%;
     margin-right: 6.5%;
+  }
+
+  .link_prototype {
+    margin-left: 6.5%;
+    margin-top: 10%;
+    font-size: 15px;
+    color: #5005f2;
+    font-family: mixta-didone, serif;
   }
 }
 
@@ -425,6 +473,14 @@
     margin-top: 0%;
     margin-left: 6.5%;
   }
+
+  .link_spil {
+    margin-left: 6.5%;
+    margin-top: 10%;
+    font-size: 15px;
+    color: #5005f2;
+    font-family: mixta-didone, serif;
+  }
 }
 
 /************************** tema 5 **********************/
@@ -444,6 +500,14 @@
   margin-left: 4.5%;
 }
 
+.link_videosite {
+  margin-left: 13.5%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: #5005f2;
+  font-family: mixta-didone, serif;
+}
+
 .virksomhedssite {
   color: #5005f2;
   font-size: 20px;
@@ -459,6 +523,14 @@
   margin-top: 0%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.link_redesign {
+  margin-left: 5%;
+  margin-top: 10%;
+  font-size: 15px;
+  color: #5005f2;
+  font-family: mixta-didone, serif;
 }
 
 /************************* video *********************************************/
@@ -553,6 +625,14 @@ video {
     font-family: mixta-didone, serif;
     margin-top: 0%;
     margin-left: 6.5%;
+  }
+
+  .link_redesign {
+    margin-left: 6.5%;
+    margin-top: 10%;
+    font-size: 15px;
+    color: #5005f2;
+    font-family: mixta-didone, serif;
   }
 }
 

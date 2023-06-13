@@ -25,6 +25,16 @@ header {
   padding: 10px;
 }
 
+a {
+  color: #5005f2;
+  font-family: mixta-didone, serif;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 p {
   color: #5005f2;
   font-family: mixta-didone, serif;
@@ -296,10 +306,6 @@ a {
     margin-left: 45%;
     text-decoration: none !important;
     margin-top: -5%;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .logo {
